@@ -1,0 +1,7 @@
+.mainContainer {
+  max-width: 550px;
+  background-color: lightgray;
+  padding: 4px;
+  margin: auto;
+  margin-top: 16px;
+}

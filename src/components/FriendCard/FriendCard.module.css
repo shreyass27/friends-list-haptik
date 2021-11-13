@@ -1,0 +1,47 @@
+.friendCard {
+    background-color: #fff;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px;
+}
+
+.infoContainer {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: capitalize;
+    word-break: break-word;
+}
+
+.desc {
+    font-size: 14px;
+    color: #777;
+    margin-top: 4px;
+}
+
+.actionContainer {
+    width: max-content;
+    min-width: 104px;
+    margin-top: 4px;
+}
+
+.actionContainer svg {
+    width: 24px;
+    height: 24px;
+}
+
+.actionButton {
+    background-color: #fff;
+    margin-left: 12px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 4px 6px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
