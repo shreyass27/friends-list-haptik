@@ -27,7 +27,7 @@ const FriendList = function ({
             noPages: Math.ceil(filteredList.length / PAGE_SIZE)
         };
 
-    }, [list, search, sortFav, page]);
+    }, [list, search, sortFav]);
 
     useEffect(function () {
         if (page >= noPages) {
